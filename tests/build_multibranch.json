@@ -1,0 +1,178 @@
+{
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+    "actions": [
+        {
+            "_class": "hudson.model.CauseAction",
+            "causes": [
+                {
+                    "_class": "jenkins.branch.BranchIndexingCause",
+                    "shortDescription": "Branch indexing"
+                }
+            ]
+        },
+        {},
+        {},
+        {},
+        {
+            "_class": "hudson.plugins.git.util.BuildData",
+            "buildsByBranchName": {
+                "master": {
+                    "_class": "hudson.plugins.git.util.Build",
+                    "buildNumber": 17,
+                    "buildResult": null,
+                    "marked": {
+                        "SHA1": "791acb2cce698bc6325772e9658326301b968818",
+                        "branch": [
+                            {
+                                "SHA1": "791acb2cce698bc6325772e9658326301b968818",
+                                "name": "master"
+                            }
+                        ]
+                    },
+                    "revision": {
+                        "SHA1": "791acb2cce698bc6325772e9658326301b968818",
+                        "branch": [
+                            {
+                                "SHA1": "791acb2cce698bc6325772e9658326301b968818",
+                                "name": "master"
+                            }
+                        ]
+                    }
+                }
+            },
+            "lastBuiltRevision": {
+                "SHA1": "791acb2cce698bc6325772e9658326301b968818",
+                "branch": [
+                    {
+                        "SHA1": "791acb2cce698bc6325772e9658326301b968818",
+                        "name": "master"
+                    }
+                ]
+            },
+            "remoteUrls": [
+                "ssh://git@10.74.139.97:7999/on/event-handler.git"
+            ],
+            "scmName": ""
+        },
+        {
+            "_class": "hudson.plugins.git.GitTagAction"
+        },
+        {},
+        {
+            "_class": "org.jenkinsci.plugins.workflow.cps.EnvActionImpl"
+        },
+        {},
+        {},
+        {
+            "_class": "hudson.tasks.junit.TestResultAction",
+            "failCount": 0,
+            "skipCount": 0,
+            "totalCount": 129,
+            "urlName": "testReport"
+        },
+        {
+            "_class": "hudson.plugins.jacoco.JacocoBuildAction"
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+        },
+        {},
+        {}
+    ],
+    "artifacts": [
+        {
+            "displayPath": "event-handler-1.0-SNAPSHOT.pom",
+            "fileName": "event-handler-1.0-SNAPSHOT.pom",
+            "relativePath": "dk/tdc/onboarding/event-handler/1.0-SNAPSHOT/event-handler-1.0-SNAPSHOT.pom"
+        },
+        {
+            "displayPath": "event-handler-201803211215-791acb2c-is.yml",
+            "fileName": "event-handler-201803211215-791acb2c-is.yml",
+            "relativePath": "dk/tdc/onboarding/event-handler/201803211215-791acb2c/event-handler-201803211215-791acb2c-is.yml"
+        },
+        {
+            "displayPath": "event-handler-201803211215-791acb2c-javadoc.jar",
+            "fileName": "event-handler-201803211215-791acb2c-javadoc.jar",
+            "relativePath": "dk/tdc/onboarding/event-handler/201803211215-791acb2c/event-handler-201803211215-791acb2c-javadoc.jar"
+        },
+        {
+            "displayPath": "event-handler-201803211215-791acb2c-sources.jar",
+            "fileName": "event-handler-201803211215-791acb2c-sources.jar",
+            "relativePath": "dk/tdc/onboarding/event-handler/201803211215-791acb2c/event-handler-201803211215-791acb2c-sources.jar"
+        },
+        {
+            "displayPath": "event-handler-201803211215-791acb2c.jar",
+            "fileName": "event-handler-201803211215-791acb2c.jar",
+            "relativePath": "dk/tdc/onboarding/event-handler/201803211215-791acb2c/event-handler-201803211215-791acb2c.jar"
+        },
+        {
+            "displayPath": "event-handler-201803211215-791acb2c.pom",
+            "fileName": "event-handler-201803211215-791acb2c.pom",
+            "relativePath": "dk/tdc/onboarding/event-handler/201803211215-791acb2c/event-handler-201803211215-791acb2c.pom"
+        }
+    ],
+    "building": false,
+    "changeSets": [
+        {
+            "_class": "hudson.plugins.git.GitChangeSetList",
+            "items": [
+                {
+                    "_class": "hudson.plugins.git.GitChangeSet",
+                    "affectedPaths": [
+                        "src/main/java/dk/tdc/onboarding/eventhandler/contexts/KafkaContext.java",
+                        "src/main/java/dk/tdc/onboarding/eventhandler/services/EnrichmentService.java"
+                    ],
+                    "author": {
+                        "absoluteUrl": "https://jenkins.onboarding.liquid.int.tdk.dk/user/jfm",
+                        "fullName": "jfm"
+                    },
+                    "authorEmail": "jfm@moerks.dk",
+                    "comment": "Minor code fixes\n",
+                    "commitId": "791acb2cce698bc6325772e9658326301b968818",
+                    "date": "2018-03-21T12:15:19+0000",
+                    "id": "791acb2cce698bc6325772e9658326301b968818",
+                    "msg": "Minor code fixes",
+                    "paths": [
+                        {
+                            "editType": "edit",
+                            "file": "src/main/java/dk/tdc/onboarding/eventhandler/contexts/KafkaContext.java"
+                        },
+                        {
+                            "editType": "edit",
+                            "file": "src/main/java/dk/tdc/onboarding/eventhandler/services/EnrichmentService.java"
+                        }
+                    ],
+                    "timestamp": 1521634519000
+                }
+            ],
+            "kind": "git"
+        }
+    ],
+    "culprits": [
+        {
+            "absoluteUrl": "https://jenkins.onboarding.liquid.int.tdk.dk/user/jfm",
+            "fullName": "jfm"
+        }
+    ],
+    "description": null,
+    "displayName": "#17",
+    "duration": 239717,
+    "estimatedDuration": 239717,
+    "executor": null,
+    "fullDisplayName": "event-handler » master #17",
+    "id": "17",
+    "keepLog": false,
+    "nextBuild": null,
+    "number": 17,
+    "previousBuild": null,
+    "queueId": 194,
+    "result": "SUCCESS",
+    "timestamp": 1521634522334,
+    "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/17/"
+}

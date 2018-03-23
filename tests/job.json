@@ -1,0 +1,99 @@
+{
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+    "actions": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+    ],
+    "buildable": true,
+    "builds": [
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 17,
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/17/"
+        }
+    ],
+    "color": "blue",
+    "concurrentBuild": true,
+    "description": null,
+    "displayName": "master",
+    "displayNameOrNull": null,
+    "firstBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 17,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/17/"
+    },
+    "fullDisplayName": "event-handler » master",
+    "fullName": "event-handler/master",
+    "healthReport": [
+        {
+            "description": "Test Result: 0 tests failing out of a total of 129 tests.",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 100
+        },
+        {
+            "description": "Coverage: All coverage targets have been met.    ",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 100
+        },
+        {
+            "description": "Build stability: No recent builds failed.",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 100
+        }
+    ],
+    "inQueue": false,
+    "keepDependencies": false,
+    "lastBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 17,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/17/"
+    },
+    "lastCompletedBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 17,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/17/"
+    },
+    "lastFailedBuild": null,
+    "lastStableBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 17,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/17/"
+    },
+    "lastSuccessfulBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 17,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/17/"
+    },
+    "lastUnstableBuild": null,
+    "lastUnsuccessfulBuild": null,
+    "name": "master",
+    "nextBuildNumber": 18,
+    "property": [
+        {
+            "_class": "jenkins.model.BuildDiscarderProperty"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty",
+            "branch": {}
+        }
+    ],
+    "queueItem": null,
+    "resumeBlocked": false,
+    "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/"
+}

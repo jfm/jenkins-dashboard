@@ -1,0 +1,144 @@
+{
+    "_class": "hudson.maven.MavenModuleSet",
+    "actions": [
+        {},
+        {},
+        null,
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+    ],
+    "buildable": true,
+    "builds": [
+        {
+            "_class": "hudson.maven.MavenModuleSetBuild",
+            "number": 4,
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/4/"
+        },
+        {
+            "_class": "hudson.maven.MavenModuleSetBuild",
+            "number": 3,
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/3/"
+        },
+        {
+            "_class": "hudson.maven.MavenModuleSetBuild",
+            "number": 2,
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/2/"
+        },
+        {
+            "_class": "hudson.maven.MavenModuleSetBuild",
+            "number": 1,
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/1/"
+        }
+    ],
+    "color": "blue",
+    "concurrentBuild": false,
+    "description": "",
+    "displayName": "metrics",
+    "displayNameOrNull": null,
+    "downstreamProjects": [],
+    "firstBuild": {
+        "_class": "hudson.maven.MavenModuleSetBuild",
+        "number": 1,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/1/"
+    },
+    "fullDisplayName": "metrics",
+    "fullName": "metrics",
+    "healthReport": [
+        {
+            "description": "Build stability: No recent builds failed.",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 100
+        }
+    ],
+    "inQueue": false,
+    "keepDependencies": false,
+    "labelExpression": null,
+    "lastBuild": {
+        "_class": "hudson.maven.MavenModuleSetBuild",
+        "number": 4,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/4/"
+    },
+    "lastCompletedBuild": {
+        "_class": "hudson.maven.MavenModuleSetBuild",
+        "number": 4,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/4/"
+    },
+    "lastFailedBuild": null,
+    "lastStableBuild": {
+        "_class": "hudson.maven.MavenModuleSetBuild",
+        "number": 4,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/4/"
+    },
+    "lastSuccessfulBuild": {
+        "_class": "hudson.maven.MavenModuleSetBuild",
+        "number": 4,
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/4/"
+    },
+    "lastUnstableBuild": null,
+    "lastUnsuccessfulBuild": null,
+    "modules": [
+        {
+            "color": "blue",
+            "displayName": "metrics",
+            "name": "dk.tdc.onboarding.metrics:metrics",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/dk.tdc.onboarding.metrics$metrics/"
+        },
+        {
+            "color": "blue",
+            "displayName": "metrics-core",
+            "name": "dk.tdc.onboarding.metrics:metrics-core",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/dk.tdc.onboarding.metrics$metrics-core/"
+        },
+        {
+            "color": "blue",
+            "displayName": "metrics-influxdb",
+            "name": "dk.tdc.onboarding.metrics:metrics-influxdb",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/dk.tdc.onboarding.metrics$metrics-influxdb/"
+        },
+        {
+            "color": "blue",
+            "displayName": "metrics-influxdb-starter",
+            "name": "dk.tdc.onboarding.metrics:metrics-influxdb-starter",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/dk.tdc.onboarding.metrics$metrics-influxdb-starter/"
+        },
+        {
+            "color": "blue",
+            "displayName": "metrics-starter",
+            "name": "dk.tdc.onboarding.metrics:metrics-starter",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/dk.tdc.onboarding.metrics$metrics-starter/"
+        },
+        {
+            "color": "blue",
+            "displayName": "metrics-starter-example",
+            "name": "dk.tdc.onboarding.metrics:metrics-starter-example",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/dk.tdc.onboarding.metrics$metrics-starter-example/"
+        }
+    ],
+    "name": "metrics",
+    "nextBuildNumber": 5,
+    "property": [
+        {
+            "_class": "jenkins.model.BuildDiscarderProperty"
+        },
+        {
+            "_class": "com.sonyericsson.rebuild.RebuildSettings"
+        }
+    ],
+    "queueItem": null,
+    "scm": {
+        "_class": "hudson.plugins.git.GitSCM"
+    },
+    "upstreamProjects": [],
+    "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/"
+}

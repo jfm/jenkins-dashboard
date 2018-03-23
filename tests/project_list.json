@@ -1,0 +1,129 @@
+{
+    "_class": "hudson.model.Hudson",
+    "assignedLabels": [
+        {
+            "name": "master"
+        }
+    ],
+    "description": null,
+    "jobs": [
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "bill-data-service",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/bill-data-service/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "bill-domain-service",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/bill-domain-service/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "columbus-graphql",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/columbus-graphql/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "communication-service",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/communication-service/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+            "name": "event-handler",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+            "name": "event-producer",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-producer/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "invoice-service",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/invoice-service/"
+        },
+        {
+            "_class": "hudson.maven.MavenModuleSet",
+            "color": "blue",
+            "name": "maven-parent-pom",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/maven-parent-pom/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "message-archive-consumer",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/message-archive-consumer/"
+        },
+        {
+            "_class": "hudson.maven.MavenModuleSet",
+            "color": "blue",
+            "name": "metrics",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/metrics/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "new-bill-message-consumer",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/new-bill-message-consumer/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "new-bill-message-producer",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/new-bill-message-producer/"
+        },
+        {
+            "_class": "hudson.maven.MavenModuleSet",
+            "color": "blue",
+            "name": "release-manager-maven-plugin",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/release-manager-maven-plugin/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "spring-cloud",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/spring-cloud/"
+        },
+        {
+            "_class": "hudson.maven.MavenModuleSet",
+            "color": "blue",
+            "name": "spring-failure-injection",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/spring-failure-injection/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.pipeline.multibranch.defaults.PipelineMultiBranchDefaultsProject",
+            "name": "technician-rebooking",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/technician-rebooking/"
+        }
+    ],
+    "mode": "NORMAL",
+    "nodeDescription": "the master Jenkins node",
+    "nodeName": "",
+    "numExecutors": 0,
+    "overallLoad": {},
+    "primaryView": {
+        "_class": "hudson.model.AllView",
+        "name": "all",
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/"
+    },
+    "quietingDown": false,
+    "slaveAgentPort": 50000,
+    "unlabeledLoad": {
+        "_class": "jenkins.model.UnlabeledLoadStatistics"
+    },
+    "useCrumbs": true,
+    "useSecurity": true,
+    "views": [
+        {
+            "_class": "hudson.model.ListView",
+            "name": "Applications",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/view/Applications/"
+        },
+        {
+            "_class": "hudson.model.ListView",
+            "name": "Generic Maven Projects",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/view/Generic%20Maven%20Projects/"
+        },
+        {
+            "_class": "hudson.model.AllView",
+            "name": "all",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/"
+        }
+    ]
+}

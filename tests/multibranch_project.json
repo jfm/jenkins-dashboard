@@ -1,0 +1,41 @@
+{
+    "_class": "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+    "actions": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+    ],
+    "description": "",
+    "displayName": "event-handler",
+    "displayNameOrNull": null,
+    "fullDisplayName": "event-handler",
+    "fullName": "event-handler",
+    "healthReport": [],
+    "jobs": [
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+            "color": "blue",
+            "name": "master",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/job/master/"
+        }
+    ],
+    "name": "event-handler",
+    "primaryView": {
+        "_class": "jenkins.branch.MultiBranchProjectViewHolder$ViewImpl",
+        "name": "default",
+        "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/"
+    },
+    "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/",
+    "views": [
+        {
+            "_class": "jenkins.branch.MultiBranchProjectViewHolder$ViewImpl",
+            "name": "default",
+            "url": "https://jenkins.onboarding.liquid.int.tdk.dk/job/event-handler/"
+        }
+    ]
+}
