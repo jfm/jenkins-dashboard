@@ -8,6 +8,7 @@ python-jenkins = "*"
 requests = "*"
 asciimatics = "*"
 nose = "*"
+termcolor = "*"
 
 [dev-packages]
 
